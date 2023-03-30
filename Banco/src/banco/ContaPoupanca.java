@@ -12,6 +12,13 @@ public class ContaPoupanca extends ContaBancaria{
             this.limite = limite;
         }
 
+    ContaPoupanca() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+   
+   
+
         @Override
         public void sacar(double valor) {
             if (saldo + limite >= valor){
@@ -29,6 +36,14 @@ public class ContaPoupanca extends ContaBancaria{
             historico.add("Deposito: +valor");
             
         }
+
+    void setNumeroDeConta(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    void mostrarDados() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 
         
         

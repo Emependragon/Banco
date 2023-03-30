@@ -21,4 +21,12 @@ public abstract class ContaBancaria {
     public abstract void sacar(double valor);
     
     public abstract void depositar (double valor);
+
+    Object getNumeroDeConta() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    Object getSaldo() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
